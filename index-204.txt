@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reem Alamri</title>
+</head>
+<body>
+    <h1>Reem Alamri 442680075</h1>
+    <img src="htmlcssjs.png" alt="A sample image">
+    <h2>course sheet:</h2>
+    <ul>
+        <li>HTML</li>
+        <ol>
+            <li>sheet2</li>
+            <li>sheer3</li>
+        </ol>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>PHP</li>
+    </ul>
+</body>
+</html>
