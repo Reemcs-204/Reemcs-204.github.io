@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sheet3</title>
+    <h1> CV FORM </h1>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <body class="sheet3"></body>
+    <form>
+
+        <fieldset>
+        <legend>Personal Information</legend> 
+        <label for="name">Name:</label><br><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="phone">Enter a phone number:</label><br><br>
+        <input type="number" id="phone" name="phone" placeholder="555-55-555"required> format: 555-55-555<br><br>
+         
+        <label for="linkedin">Your linkedIn page:</label>
+        <input type="url" id="linkedin" name="linkedin">
+
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    </fieldset>
+
+        <label for="experience">Years of experience (between 3 and 10):</label>
+        <input type="number" id="experience" name="experience" min="3" max="10" required><br><br>
+
+        <label>expected salary :4000
+            <input type="range" min="4000" max="10000">10000<br><br>
+        
+
+        <label for="languages">Languages:</label>
+        <form id="languages"><br><br>
+            <label>
+                <input type="checkbox" name="arabic"> Arabic
+            </label><br><br>
+            
+            <label>
+                <input type="checkbox" name="english"> English
+            </label><br><br>
+     
+
+        <label for="cv">Upload your CV:</label>
+        <input type="file" id="cv" name="cv"><br><br>
+
+        <label for="start_week">The nearest week you can start work:</label>
+        <input type="week" id="start_week" name="start_week"><br><br>
+
+        <label for="start_month">The nearest month you can start work:</label>
+        <input type="month" id="start_month" name="start_month"><br><br>
+
+        <label for="best_time">The best time to work:</label>
+        <input type="time" id="best_time" name="best_time"><br><br>
+
+        <label for="majors">Majors:</label>
+        <input type="text" id="Majors" name="Majors" required><br><br>
+
+        <label for="why_work">Why you want to work with us</label><br><br>
+        <textarea id="why_work" name="why_work" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="send">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
