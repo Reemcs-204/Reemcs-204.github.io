@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Add picture as background in the top right */
+body {
+    background-image: url('your-background-image.jpg');
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+/* Change the color of headings */
+h1, h2, h3 {
+    color: #FF5733; /* Change to your desired color */
+}
+
+/* Set list styles */
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+ol ol {
+    list-style: lower-roman;
+}
+
+/* Style links */
+a {
+    text-decoration: none; /* Remove underlines for unvisited and visited links */
+    color: red; /* Color for unvisited links */
+}
+
+a:hover,
+a:active {
+    text-decoration: underline; /* Underline on hover and active */
+    color: green; /* Color for hover */
+}
+
+a:visited {
+    color: blue; /* Color for visited links */
+}
+
+/* Different styles for paragraphs with different classes */
+p.first-paragraph {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+p.second-paragraph {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    color: #666;
+}
+/* CSS for the superscript class */
+.superscript {
+    position: relative;
+    top: -0.5em; /* Adjust the value to position the "th" correctly */
+    font-size: 0.7em; /* Adjust the font size as needed */
+}
+
+
+.sheet1 h1 {
+    border: 1px solid #000; /* Add a border */
+    padding: 10px; /* Adjust padding */
+    margin: 10px 0; /* Adjust margin */
+}
+.sheet3 {
+    background-color: #F0F0F0;
+}
