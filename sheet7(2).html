@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greeting Page</title>
+</head>
+<body>
+    <h1>Greeting Page</h1>
+    <p>Enter your name:</p>
+    <input type="text" id="nameInput">
+    <button onclick="printGreeting()">Submit</button>
+    <p id="greetingMessage"></p>
+
+    <script>
+        function printGreeting() {
+            const name = document.getElementById('nameInput').value;
+            const now = new Date();
+            const hour = now.getHours();
+
+            let greetingMessage = "Good Morning";
+            if (hour >= 12) {
+                greetingMessage = "Good Afternoon";
+            }
+
+            document.getElementById('greetingMessage').textContent = `${greetingMessage}, ${name}!`;
+        }
+    </script>
+</body>
+</html>
+
